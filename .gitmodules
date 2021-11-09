@@ -1,0 +1,3 @@
+[submodule "proj"]
+	path = proj
+	url = git@github.com:UCSB-Schedule-Builder/UCSB-Schedule-Builder

@@ -1,0 +1,22 @@
+{
+  "name": "ucsb-schedule-builder-deployment-wrapper",
+  "version": "1.0.0",
+  "description": "Deployment wrapper for UCSB-Schedule-Builder so it can be deployed on Cloudflare Pages",
+  "scripts": {
+    "build": "pnpm -C proj install && pnpm -C proj export"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCSB-Schedule-Builder/Deployment-Wrapper.git"
+  },
+  "author": "SwiftWinds",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UCSB-Schedule-Builder/Deployment-Wrapper/issues"
+  },
+  "homepage": "https://github.com/UCSB-Schedule-Builder/Deployment-Wrapper#readme",
+  "devDependencies": {
+    "pnpm": "^6.20.4"
+  }
+}
