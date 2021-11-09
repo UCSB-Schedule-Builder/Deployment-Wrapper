@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Deployment wrapper for UCSB-Schedule-Builder so it can be deployed on Cloudflare Pages",
   "scripts": {
-    "build": "pnpm -C proj install && pnpm -C proj export"
+    "build": "pnpm -C proj install && pnpm -C proj export",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
